@@ -1,0 +1,57 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+}
+
+body {
+    margin: 0;
+    background-color: #252526;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.prehead {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.top {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*used to make sure the links dont go outside and reach */
+    background-color: #333333; /*make note that putting
+    this element here creates a "bar" to fill entire page whereas
+    putting it in the li a it only creates a bar for the length of the list*/
+}
+li.top {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.center {
+    text-align: center;
+}
+
+
+
+
+
+
